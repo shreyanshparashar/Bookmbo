@@ -3,8 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import reportWebVitals from "./reportWebVitals";
-
 import reducer, { initialState } from "./reducer";
 import { StateProvider } from "./StateProvider";
 
@@ -18,4 +16,3 @@ ReactDOM.render(
 );
 
 serviceWorker.unregister();
-reportWebVitals();
